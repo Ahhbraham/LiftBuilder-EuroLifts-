@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SplashScreen from '../views/SplashScreen.vue'
-import LiftBuilder from '../views/LiftBuilder.vue'
+import LiftConfigurator from '../views/LiftConfigurator.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,9 +11,9 @@ const router = createRouter({
       component: SplashScreen,
     },
     {
-      path: '/LiftBuilder',
-      name: 'LiftBuilder',
-      component: LiftBuilder,
+      path: '/LiftConfigurator',
+      name: 'LiftConfigurator',
+      component: LiftConfigurator,
     },
   ],
 })
